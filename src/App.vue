@@ -29,7 +29,7 @@
             </md-list>
           </md-list-expand>
           </md-list-item>
-        <md-list>
+        </md-list>
       </div>
      </md-sidenav>
      <transition name="md-router" apear>
