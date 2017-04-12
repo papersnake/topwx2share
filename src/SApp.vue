@@ -36,7 +36,7 @@
 </md-card>
 </div>
 <div class="page-right">
-  <md-card>
+  <md-card class="weather">
     <md-card-content>
       <weather></weather>
 
@@ -126,7 +126,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 body {
   font:1rem/1.3 Microsoft YaHei,Helvetica,sans-serif;
   background-color: #fefefe;
@@ -173,5 +173,9 @@ body {
 .page-right {
   width: 33.33%;
   padding-left: 0.5rem;
+}
+
+.page-right .weather{
+  background-color: #1abc9c;
 }
 </style>

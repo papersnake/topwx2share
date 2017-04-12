@@ -24,7 +24,7 @@
     "tough-cookie": "^2.3.2",
     "tough-cookie-filestore": "0.0.1",
     "url": "^0.11.0",
-    "vue": "^2.1.0",
+    "vue": "^2.2.6",
     "vue-material": "^0.6.3",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.1.1",

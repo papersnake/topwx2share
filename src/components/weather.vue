@@ -1,29 +1,60 @@
 /* eslint-disable*/
 <template>
-<div id="demo">
-
+<div class="weather-warp">
+<h2>吴江,江苏</h2>
+<div class="wiToday">
+  <div class="wiIconGrop">
+    <div class="wi wi520">
+    </div>
+    <p class="wiText">晴转多云</p>
+  </div>
+  <p class="wiTemperature">7<sup>°C</sup></p>
+  <div class="wiDetail">
+    <p class="wiDay">星期二</p>
+  </div>
+</div>
 </div>
 </template>
 <script>
 /* eslint-disable */
+import Api from '../api'
 export default {
   created () {
-    let ht = $('#demo').leoweather({format: '<i class="icon-{图标}">{气温}℃</i><p>{城市}<span>|</span>{天气}<span>|</span>{风向}{风级}级</p>'})
-    console.log(ht)
+    this.getWeather()
+  },
+  methods: {
+    getWeather () {
+      Api.getWeather('吴江').then((data) => {
+        console.log(data)
+      })
+    }
   }
 }
 </script>
 <style>
-  .demo { width:100px; min-width:100px; max-width:100px; }
-  .demo td    { width:680px; min-width:680px; max-width:680px; }
-  #demo { width:780px; margin:150px auto; background:#72af3c; color:#FFF; padding:50px 0 100px 0; overflow:hidden; border-radius:5000px; }
-  #demo i { background: no-repeat top left; display:inline-block; height:128px; line-height:128px; margin:0 auto 20px auto; font-size:70px; padding-left:150px; font-style:normal; text-align:center; font-weight:bold; }
-  #demo i.icon-xiaoyu { background-image:url(~/static/icon/xiaoyu.png); }
-  #demo i.icon-zhongyu { background-image:url(~/static/icon/zhongyu.png); }
-  #demo i.icon-dayu { background-image:url(~/static/icon/dayu.png); }
-  #demo i.icon-qing { background-image:url(~/static/icon/qing.png); }
-  #demo i.icon-duoyun { background-image:url(~/static/icon/duoyun.png); }
-  #demo i.icon-yin { background-image:url(~/static/icon/yin.png); }
-  #demo p { background:rgba(0,0,0,.3); margin:0 200px; padding:20px; border-radius:1000px; font-size:16px; }
-  #demo p span { margin:0 15px; }
+.weather-warp{
+  width: 100%;
+  color: #fff;
+}
+.weather-warp h2 {
+  font-size: 0.5rem;
+}
+.weather-warp .wiToday{
+  width: 100%;
+  overflow: hidden;
+}
+.weather-warp .wiToday>.wiIconGrop{
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+.weather-warp .wiToday>p.wiTemperature{
+  font-size: 2rem;
+  line-height: 1.45em;
+  float:left;
+  width: 50%;
+  text-align: center;
+  color: inherit;
+  margin: 0;
+}
 </style>
