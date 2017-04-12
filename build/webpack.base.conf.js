@@ -1,6 +1,7 @@
 var path = require('path')
 var config = require('../config')
 var utils = require('./utils')
+var webpack = require('webpack')
 var projectRoot = path.resolve(__dirname, '../')
 
 var env = process.env.NODE_ENV
@@ -30,6 +31,12 @@ module.exports = {
       'components': path.resolve(__dirname, '../src/components')
     }
   },
+  /**
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery'
+    }),
+  ],**/
   resolveLoader: {
     fallback: [path.join(__dirname, '../node_modules')]
   },
@@ -104,7 +111,9 @@ module.exports = {
   },
   externals: [
         {
-            './cptable': 'var cptable'
+            './cptable': 'var cptable',
+            'jquery': 'jquery',
+            '$': 'jquery'
         }
     ]
 }

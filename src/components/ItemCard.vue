@@ -2,7 +2,7 @@
 <div class="grid-item">
 <md-card md-with-hover>
   <md-card-media>
-    <md-image :md-src="items.itempic"></md-image>
+    <md-image :md-src="imgsrc"></md-image>
   </md-card-media>
 
   <md-card-header>
@@ -27,6 +27,11 @@ export default {
     items: {
       type: Object,
       required: true
+    }
+  },
+  computed: {
+    imgsrc: function () {
+      return this.items.itempic + '_320x320.jpg'
     }
   }
 }

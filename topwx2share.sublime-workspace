@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"md-car",
+				"md-card-content"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
 				"con",
 				"console.log();"
 			],
@@ -72,10 +92,6 @@
 				"margin-bottom"
 			],
 			[
-				"ba",
-				"background"
-			],
-			[
 				"e",
 				"escape"
 			],
@@ -118,14 +134,6 @@
 			[
 				"mi",
 				"min-height"
-			],
-			[
-				"pa",
-				"padding-top"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"marg",
@@ -506,81 +514,89 @@
 			[
 				"Think",
 				"ThinkOauth"
-			],
-			[
-				"getTwoCh",
-				"getTwoCharactersFail"
-			],
-			[
-				"com",
-				"componentWillUnmount	Life Cycle Method"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/vuex/modules/items/actions.js",
+			"file": "src/vuex/store.js",
 			"settings":
 			{
-				"buffer_size": 1586,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/services/wxBot/wxBot.js",
-			"settings":
-			{
-				"buffer_size": 3106,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/pages/Home.vue",
-			"settings":
-			{
-				"buffer_size": 2347,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/pages/BotLogin.vue",
-			"settings":
-			{
-				"buffer_size": 509,
-				"line_ending": "Unix"
+				"buffer_size": 241,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "src/main.js",
 			"settings":
 			{
-				"buffer_size": 1230,
+				"buffer_size": 1030,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/services/bot.js",
+			"file": "src/SApp.vue",
 			"settings":
 			{
-				"buffer_size": 184,
+				"buffer_size": 3531,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/web/wx2share/Application/Home/Controller/UrlhandleController.class.php",
+			"file": "src/App.vue",
 			"settings":
 			{
-				"buffer_size": 20860,
+				"buffer_size": 5597,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/python/wxBot/wxbot.py",
+			"file": "/E/Downloads/niuqiqi021722/jQuery自动定位当地天气预报代码_niuqiqi021722/index.html",
 			"settings":
 			{
-				"buffer_size": 56817,
+				"buffer_size": 5620,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/weather.vue",
+			"settings":
+			{
+				"buffer_size": 1369,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/BaiduNetdiskDownload/websprice/websprice/js/jquery.weather.js",
+			"settings":
+			{
+				"buffer_size": 8875,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/webpack.base.conf.js",
+			"settings":
+			{
+				"buffer_size": 2940,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/jquery-vendor.js",
+			"settings":
+			{
+				"buffer_size": 71,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2004,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -591,10 +607,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 192.0,
-		"last_filter": "",
+		"height": 357.0,
+		"last_filter": "insta",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -649,21 +669,48 @@
 	},
 	"expanded_folders":
 	[
-		"/E/node/topwx2share",
-		"/E/node/topwx2share/build",
-		"/E/node/topwx2share/src",
-		"/E/node/topwx2share/src/pages",
-		"/E/node/topwx2share/src/services",
-		"/E/node/topwx2share/src/services/gyItems",
-		"/E/node/topwx2share/src/services/lib",
-		"/E/node/topwx2share/src/services/wxBot",
-		"/E/node/topwx2share/src/vuex",
-		"/E/node/topwx2share/src/vuex/modules",
-		"/E/node/topwx2share/src/vuex/modules/items",
-		"/E/node/topwx2share/static"
+		"/F/workspace/topwx2share",
+		"/F/workspace/topwx2share/build",
+		"/F/workspace/topwx2share/src",
+		"/F/workspace/topwx2share/src/assets",
+		"/F/workspace/topwx2share/src/assets/img",
+		"/F/workspace/topwx2share/src/components",
+		"/F/workspace/topwx2share/src/pages",
+		"/F/workspace/topwx2share/src/services",
+		"/F/workspace/topwx2share/src/services/lib",
+		"/F/workspace/topwx2share/src/vuex",
+		"/F/workspace/topwx2share/src/vuex/modules",
+		"/F/workspace/topwx2share/src/vuex/modules/items"
 	],
 	"file_history":
 	[
+		"/F/workspace/topwx2share/.eslintrc.js",
+		"/F/workspace/topwx2share/build/webpack.base.conf.js",
+		"/E/Downloads/niuqiqi021722/jQuery自动定位当地天气预报代码_niuqiqi021722/js/jquery.leoweather.min.js",
+		"/F/workspace/topwx2share/src/App.vue",
+		"/F/workspace/learn/wx2share-hot/src/main.js",
+		"/F/workspace/topwx2share/.tags",
+		"/F/workspace/learn/wx2share-hot/src/components/Hello.vue",
+		"/F/workspace/topwx2share/src/vuex/modules/items/actions.js",
+		"/F/workspace/topwx2share/src/services/wxBot/wxBot.js",
+		"/F/workspace/topwx2share/src/pages/Home.vue",
+		"/F/workspace/vue-Meizi/src/components/welfare/welfare.vue",
+		"/F/workspace/learn/wx2share-hot/package.json",
+		"/F/workspace/learn/wx2share-hot/src/App.vue",
+		"/F/workspace/loadxlstosqlite/savetosqlite.py",
+		"/F/workspace/learn/wx2share-hot/build/vue-loader.conf.js",
+		"/F/workspace/topwx2share/index.html",
+		"/F/workspace/learn/wx2share-hot/index.html",
+		"/F/workspace/vue-Meizi/package.json",
+		"/F/workspace/topwx2share/src/pages/BotLogin.vue",
+		"/F/workspace/topwx2share/src/components/ItemCard.vue",
+		"/F/workspace/topwx2share/src/main.js",
+		"/F/workspace/learn/wx2share-hot/tags",
+		"/F/workspace/learn/wx2share-hot/build/utils.js",
+		"/F/workspace/learn/wx2share-hot/build/webpack.base.conf.js",
+		"/F/workspace/topwx2share/src/services/bot.js",
+		"/E/python/wxBot/wxbot.py",
+		"/D/web/wx2share/Application/Home/Controller/UrlhandleController.class.php",
 		"/E/node/WeixinBot/src/conf.js",
 		"/C/Documents and Settings/Administrator/vimfiles/install.sh",
 		"/E/node/topwx2share/index.html",
@@ -764,38 +811,11 @@
 		"/D/web/newchage/Application/Common/Common/function.php",
 		"/D/web/wx2share/Application/Home/View/Urlhandle/test2.html",
 		"/E/node/topwx2share/src/components/Hello.vue",
-		"/E/node/topwx2share/src/components/secondcomponent.vue",
-		"/E/node/topwx2share/src/components/firstcomponent.vue",
-		"/E/node/topwx2share/package.json",
-		"/D/web/wx2share/Application/Api/TpkApi.class.php",
-		"/D/web/wx2share/Application/Home/Controller/UrlhandleController.class.php",
-		"/D/web/wx2share/Application/Item/Controller/DetailController.class.php",
-		"/D/node/vue-frist/src/vuex/store.js",
-		"/D/web/wx2share/Application/Common/Common/function.php",
-		"/D/web/wx2share/Application/Item/Controller/TestController.class.php",
-		"/E/python/wxBot/bot.py",
-		"/E/python/wxBot/wxbot.py",
-		"/D/web/wx2share/Application/Home/View/Public/nbase.html",
-		"/D/web/wx2share/Application/Home/View/Urlhandle/ncombolink.html",
-		"/D/node/vue-frist/src/components/AddCharacter.vue",
-		"/D/node/vue-frist/src/api/characteapi.js",
-		"/D/node/vue-frist/src/vuex/types.js",
-		"/E/node/electron-quick-start/node_modules/electron/install.js",
-		"/C/Documents and Settings/Administrator/Application Data/npm/npm",
-		"/E/node/electron-quick-start/node_modules/electron/index.js",
-		"/E/python/wxBot/temp/group_list.json",
-		"/E/python/wxBot/test.py",
-		"/E/python/itchat/test.py",
-		"/E/python/wxBot/temp/contacts.json",
-		"/E/python/wxBot/conf.ini",
-		"/E/python/wxBot/temp/account_info.json",
-		"/E/python/wxBot/temp/public_list.json",
-		"/D/My Documents/宾馆联系方式.docx",
-		"/D/web/wx2share/src/common/ShareText.js"
+		"/E/node/topwx2share/src/components/secondcomponent.vue"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -809,6 +829,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"plugins",
+			"ProvidePlugin",
+			">\n",
+			"open",
+			"loadMore",
+			"externals",
 			"request",
 			"self.session",
 			"SafeSession",
@@ -930,13 +956,7 @@
 			"activityId",
 			"autoCheckToken",
 			"couponinfo",
-			"_makedelivery",
-			"dtif_p2",
-			"coupon",
-			"_makeYpriceLabel",
-			"parseWhere",
-			"query",
-			"buildSelectSql"
+			"_makedelivery"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -972,53 +992,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/vuex/modules/items/actions.js",
+					"file": "src/vuex/store.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1586,
+						"buffer_size": 241,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1420,
-								1420
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 172.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/services/wxBot/wxBot.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3106,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1938,
-								1944
+								195,
+								195
 							]
 						],
 						"settings":
@@ -1035,24 +1021,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/pages/Home.vue",
+					"buffer": 1,
+					"file": "src/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2347,
+						"buffer_size": 1030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								653,
-								660
+								984,
+								957
 							]
 						],
 						"settings":
@@ -1060,43 +1046,74 @@
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
 							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 228.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/pages/BotLogin.vue",
+					"buffer": 2,
+					"file": "src/SApp.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 509,
+						"buffer_size": 3531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								451,
-								451
+								1319,
+								1319
 							]
 						],
 						"settings":
 						{
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"is_xml": false,
-							"open_with_edit": true,
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2850.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/App.vue",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
 							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
@@ -1110,33 +1127,28 @@
 				},
 				{
 					"buffer": 4,
-					"file": "src/main.js",
+					"file": "/E/Downloads/niuqiqi021722/jQuery自动定位当地天气预报代码_niuqiqi021722/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1230,
+						"buffer_size": 5620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								976,
-								976
+								1722,
+								1732
 							]
 						],
 						"settings":
 						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 342.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1144,27 +1156,26 @@
 				},
 				{
 					"buffer": 5,
-					"file": "src/services/bot.js",
+					"file": "src/components/weather.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 184,
+						"buffer_size": 1369,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								156,
-								156
+								153,
+								163
 							]
 						],
 						"settings":
 						{
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
@@ -1178,28 +1189,29 @@
 				},
 				{
 					"buffer": 6,
-					"file": "/D/web/wx2share/Application/Home/Controller/UrlhandleController.class.php",
+					"file": "/E/BaiduNetdiskDownload/websprice/websprice/js/jquery.weather.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20860,
+						"buffer_size": 8875,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								77,
+								46
 							]
 						],
 						"settings":
 						{
 							"origin_encoding": "UTF-8",
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3192.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1207,33 +1219,103 @@
 				},
 				{
 					"buffer": 7,
-					"file": "/E/python/wxBot/wxbot.py",
+					"file": "build/webpack.base.conf.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 56817,
+						"buffer_size": 2940,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12334,
-								12351
+								2920,
+								2920
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5532.0,
+						"translation.y": 1539.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/jquery-vendor.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 71,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1875,
+								1824
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
