@@ -1,7 +1,7 @@
 <template>
 <div class="page-main">
 <div class="page-header">
-    <md-whiteframe md-tag="md-toolbar" md-elevation="1" class="main-header">
+    <md-whiteframe md-tag="md-toolbar" md-elevation="1" class="main-header op">
     <div class="logo">
       <img :src="logo" />
     </div>
@@ -10,7 +10,7 @@
 </div>
 <div class="page-content">
 <div class="page-left">
-<md-card>
+<md-card class="op">
   <md-card-content>
     <md-table v-once>
       <md-table-header>
@@ -126,10 +126,20 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style>
 body {
   font:1rem/1.3 Microsoft YaHei,Helvetica,sans-serif;
-  background-color: #fefefe;
+  background-color: #000;
+}
+
+body.md-theme-default{
+  background:url('/static/img/bg2.jpg');
+  filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+  -moz-background-size:100% 100%;
+  background-size:100% 100%;
+}
+.md-theme-default.md-toolbar.op{
+  background-color:rgba(63, 81, 181, 0.67);
 }
 .logo{
   width: 4rem;
@@ -148,11 +158,15 @@ body {
 .page-left {
   width: 66.66%;
 }
+.md-theme-default.md-card.op {
+  background-color: rgba(241, 196, 15, 0.38);
+}
 .md-table .md-table-head-container{
   padding: 0;
-  height: 1.8rem;
+  height: 1rem;
   line-height: 1rem;
   text-align: right;
+  color: #fff;
 }
 .md-table .md-table-cell .md-table-cell-container{
   text-align: right;
@@ -169,6 +183,7 @@ body {
   height: 2rem;
   line-height: 1rem;
   font-size: 0.8rem;
+  color: #fff;
 }
 .page-right {
   width: 33.33%;
@@ -176,6 +191,6 @@ body {
 }
 
 .page-right .weather{
-  background-color: #1abc9c;
+  background-color: rgba(26, 188, 156, 0.38)!important;
 }
 </style>

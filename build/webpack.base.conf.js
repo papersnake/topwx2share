@@ -112,8 +112,7 @@ module.exports = {
   externals: [
         {
             './cptable': 'var cptable',
-            'jquery': 'jquery',
-            '$': 'jquery'
+            jquery: 'window.$'
         }
     ]
 }
