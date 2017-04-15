@@ -6,6 +6,7 @@
       <img :src="logo" />
     </div>
     <h2 class="main-title" style="flex: 1">北厍世纪汉庭宾馆</h2>
+    <colock />
   </md-whiteframe>
 </div>
 <div class="page-content">
@@ -44,84 +45,27 @@
   </md-card>
 </div>
 </div>
+<bg />
 </div>
 </template>
 <script>
 import weather from './components/weather'
+import colock from './components/colock'
+import bg from './components/background'
 export default {
   name: 'app',
   created () {
 
   },
   components: {
-    weather
+    weather,
+    colock,
+    bg
   },
   data () {
     return {
       logo: './static/img/logo.png',
-      fj: [{
-        name: '豪华标准电脑房',
-        price: {
-          msj: '218元',
-          hyj: '175元',
-          wyj: '153元',
-          desc: ''
-        }
-      },
-      {
-        name: '豪华家庭房',
-        price: {
-          msj: '198元',
-          hyj: '158元',
-          wyj: '138元',
-          desc: ''
-        }
-      },
-      {
-        name: '豪华大床房A',
-        price: {
-          msj: '188元',
-          hyj: '150元',
-          wyj: '132元',
-          desc: ''
-        }
-      },
-      {
-        name: '豪华大床房B',
-        price: {
-          msj: '178元',
-          hyj: '142元',
-          wyj: '125元',
-          desc: ''
-        }
-      },
-      {
-        name: '标准房',
-        price: {
-          msj: '188元',
-          hyj: '150元',
-          wyj: '132元',
-          desc: ''
-        }
-      },
-      {
-        name: '大床房',
-        price: {
-          msj: '188元',
-          hyj: '150元',
-          wyj: '132元',
-          desc: ''
-        }
-      },
-      {
-        name: '4小时钟点房',
-        price: {
-          msj: '80元',
-          hyj: '',
-          wyj: '',
-          desc: '会员开8送1'
-        }
-      }]
+      fj: require('./assets/fj.json')
     }
   }
 }
@@ -177,7 +121,7 @@ body.md-theme-default{
   font-size: 0.6rem;
 }
 .md-table tbody .md-table-row {
-  border-top: 0.05rem solid #e0e0e0;
+  border-top: 0.05rem solid #fff;
 }
 .md-table .md-table-cell {
   height: 2rem;

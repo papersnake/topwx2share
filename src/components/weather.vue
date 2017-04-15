@@ -60,11 +60,11 @@ export default {
 
 @font-face {
     font-family: 'weather';
-    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
-    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
-         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
-         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    src: url('/static/font/artill_clean_icons-webfont.eot');
+    src: url('/static/font/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/font/artill_clean_icons-webfont.woff') format('woff'),
+         url('/static/font/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('/static/font/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
     font-weight: normal;
     font-style: normal;
 }

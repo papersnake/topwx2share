@@ -112,7 +112,8 @@ module.exports = {
   externals: [
         {
             './cptable': 'var cptable',
-            jquery: 'window.$'
+            jquery: 'window.$',
+            particlesJS: 'window.particlesJS'
         }
     ]
 }
